@@ -64,7 +64,6 @@ nav ul > li  {
 }
 
 .baner_text {
-    
     width: 522px;
     text-align: center;
 }
@@ -229,6 +228,119 @@ button {
        
 }
 
+
+
 .green {
     color:#7cc576;
 }
+
+.portfolio {
+    height: 824px;
+}
+
+.portfolio h2 {
+    font-family: Montserrat;
+    color:#222222;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 0;
+}
+
+.portfolio_header {
+    font-family: RobotoSlab;
+    color:  #777777;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 19px;
+    margin-bottom: 86px;
+}
+.ipad {
+    float:left;
+    position: absolute;
+    right: 0;
+}
+
+.portfolio article {
+    width: 480px;
+    margin-left: 210px;
+    margin-top: 0; 
+}
+
+.portfolio h4 {
+    font-family: Montserrat;
+    color:  #222222;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 24px;
+}
+
+.portfolio article p {   /*czemu tu mi robi taki duży margines na górze?*/
+    font-family: RobotoSlab;
+    color:  #777777;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    display: block;
+    width: 360px;
+    margin-top: 0;   
+}
+
+.pseudo_list {
+    margin-top: 28px;
+}
+
+.list_li {
+    padding-left:90px;
+    background: url(images/icon_basket.png) no-repeat left top;
+    height: 75px;
+    display: table-cell;
+    vertical-align: middle;
+    padding-bottom: 20px;  
+}
+
+.list_li h4 {
+    font-family: Montserrat;
+    color:  #222222;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 0;
+}
+
+.list_li p {
+    font-family: RobotoSlab;
+    color:  #777777;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.basket {
+    background: url(images/icon_basket.png) no-repeat left top;     
+}
+
+.laptop {
+    background: url(images/icon_laptop.png) no-repeat left top;    
+}
+
+.locked {
+    background: url(images/icon_locked.png) no-repeat left top;    
+}
+
+.portfolio a {
+    font-family: Montserrat;
+    color:  #7cc576;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: left;
+    text-decoration: none;
+    display: block;
+    margin-top: 20px;
+}
+
+
+
