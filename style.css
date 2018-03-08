@@ -489,8 +489,8 @@ button {
     background-color:  #f9f9f9;
     width: 643px;
     height: 173px;
-    margin-right: 44px;
-    margin-left: 44px;
+    margin-right: 0px;
+    margin-left: 0px;
 }
 
 .clients_text blockquote {
@@ -510,6 +510,26 @@ button {
     font-weight: 400;
     display: block;
     text-align: center;
+}
+
+.triangle_left {
+    width: 0;
+	height: 0;
+	border-top: 15px solid transparent;
+	border-bottom: 15px solid transparent;
+	border-right: 24px solid #f9f9f9;
+	margin: auto 0  auto 0;
+    margin-left: 24px;
+}
+
+.triangle_rigth {
+   width: 0;
+	height: 0;
+	border-top: 15px solid transparent;
+	border-bottom: 15px solid transparent;
+	border-left: 24px solid #f9f9f9;
+	margin: auto 0  auto 0; 
+    margin-right: 24px;
 }
 
 
