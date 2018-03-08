@@ -204,7 +204,7 @@ button {
 }
 
 .blog_text h2 {
-    font-family: Montserrat;
+    font-family:  'Montserrat', sans-serif;
     color:  #ffffff;
     font-size: 40px;
     font-weight: 700;
@@ -214,7 +214,7 @@ button {
 
 .blog_text p {
     width:530px;
-    font-family: RobotoSlab;
+    font-family: 'Roboto Slab', serif;
     color:  #cccccc;
     font-size: 16px;
     font-weight: 400;
@@ -246,7 +246,7 @@ button {
 }
 
 .portfolio h2 {
-    font-family: Montserrat;
+    font-family:  'Montserrat', sans-serif;
     color:#222222;
     font-size: 40px;
     font-weight: 700;
@@ -256,7 +256,7 @@ button {
 }
 
 .portfolio_header {
-    font-family: RobotoSlab;
+    font-family: 'Roboto Slab', serif;
     color:  #777777;
     font-size: 20px;
     font-weight: 400;
@@ -277,7 +277,7 @@ button {
 }
 
 .portfolio h4 {
-    font-family: Montserrat;
+    font-family:  'Montserrat', sans-serif;
     color:  #222222;
     font-size: 18px;
     font-weight: 700;
@@ -286,7 +286,7 @@ button {
 }
 
 .portfolio article p {   /*czemu tu mi robi taki duży margines na górze?*/
-    font-family: RobotoSlab;
+    font-family:'Roboto Slab', serif;
     color:  #777777;
     font-size: 16px;
     font-weight: 400;
@@ -309,7 +309,7 @@ button {
 }
 
 .list_li h4 {
-    font-family: Montserrat;
+    font-family:  'Montserrat', sans-serif;
     color:  #222222;
     font-size: 18px;
     font-weight: 700;
@@ -318,7 +318,7 @@ button {
 }
 
 .list_li p {
-    font-family: RobotoSlab;
+    font-family: 'Roboto Slab', serif;
     color:  #777777;
     font-size: 16px;
     font-weight: 400;
@@ -338,7 +338,7 @@ button {
 }
 
 .portfolio a {
-    font-family: Montserrat;
+    font-family:  'Montserrat', sans-serif;
     color:  #7cc576;
     font-size: 16px;
     font-weight: 700;
@@ -354,7 +354,7 @@ button {
 }
 
 .culture h2 {
-    font-family: Montserrat;
+    font-family:  'Montserrat', sans-serif;
     color:  #222222;
     font-size: 40px;
     font-weight: 700;
@@ -365,7 +365,7 @@ button {
 }
 
 .culture p {
-    font-family: RobotoSlab;
+    font-family: 'Roboto Slab', serif;
     color:  #777777;
     font-size: 20px;
     font-weight: 400;
@@ -415,7 +415,7 @@ button {
 
 
 .culture_container h4 {
-    font-family: Montserrat;
+    font-family:  'Montserrat', sans-serif;
     color:  #222222;
     font-size: 18px;
     font-weight: 700;
@@ -424,7 +424,7 @@ button {
 }
 
 .culture_container p {            /*powinno być szersze*/
-    font-family: RobotoSlab;
+    font-family: 'Roboto Slab', serif;
     color:  #777777;
     font-size: 14px;
     font-weight: 400;
@@ -439,6 +439,79 @@ button {
     position: relative;
     top:-80px;
 }
+
+.clients {
+    height: 810px;
+    
+}
+
+.clients h2 {
+    font-family:  'Montserrat', sans-serif;
+    color:  #222222;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 20px;   
+ }
+
+.clients p {
+    font-family:'Roboto Slab', serif;
+    color:  #777777;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    margin:0;
+    margin-bottom: 86px;
+}
+
+.clients_flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    width: 940px;
+    margin-bottom: 62px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.foto {
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 3px;
+    border-color:  #ffffff;
+    background-color:  #f9f9f9;
+    width: 221px;
+    height: 220px;
+}
+
+.clients_text {
+    background-color:  #f9f9f9;
+    width: 643px;
+    height: 173px;
+    margin-right: 44px;
+    margin-left: 44px;
+}
+
+.clients_text blockquote {
+    font-family: 'Roboto Slab', serif;
+    color:  #777777;
+    font-size: 22px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 41px;
+    margin-bottom: 18px;
+}
+
+.clients_text cite {
+    font-family: 'Roboto Slab', serif;
+    color:  #7cc576;
+    font-size: 18px;
+    font-weight: 400;
+    display: block;
+    text-align: center;
+}
+
 
 
 
