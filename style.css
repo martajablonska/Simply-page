@@ -574,8 +574,112 @@ button {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    
-    
+}
+
+.latest {
+    height: 365px;
+    background-color: black;
+    color:white;
+}
+
+.latest_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 927px;
+    margin:auto;
+}
+
+.latest_container > div {
+    width: 280px;
+    margin-top: 54px;  
+}
+
+.latest_container > div > h4 {
+    font-family: 'Montserrat', sans-serif;
+    color:  #ffffff;
+    font-size: 18px;/
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 31px;
+}
+
+.contact_us ul {
+    list-style: none;
+    list-style-position: inside;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.contact_us li:first-child {
+    background: url(images/icon_location.png) no-repeat left top; 
+     display: table-cell;
+    vertical-align: center;
+    padding-left: 35px;
+    margin-bottom: 20px;
     
 }
+
+.contact_us li:nth-child(2) {
+    background: url(images/icon_phone.png) no-repeat left top; /*czemu mi tu ucina?*/
+    display: table-cell;
+    vertical-align: center;
+    padding-left: 35px;
+    margin-bottom: 20px;
+    
+}
+
+.contact_us li:last-child {
+    background: url(images/icon_email.png) no-repeat left top; 
+     display: table-cell;
+    vertical-align: center;
+    padding-left: 35px;
+    
+}
+
+.latest_post li {
+    padding-left: 35px;
+}
+
+.news {
+    background: url(images/icon_news.png) no-repeat left top; 
+    padding-left: 35px;
+    margin-bottom: 19px;
+    line-height: 22px;
+}
+
+.photo {
+    background: url(images/icon_photo.png) no-repeat left top; 
+    padding-left: 35px;
+    margin-bottom: 19px;
+    line-height: 22px;
+}
+.media {
+    background: url(images/icon_media.png) no-repeat left top; 
+    padding-left: 35px;
+    margin-bottom: 19px;
+    line-height: 22px;
+}
+
+.latest_tweets ul> li {
+    background: url(images/icon_twitter.png) no-repeat left top; 
+    padding-left: 35px;
+    margin-bottom: 19px;
+    line-height: 22px;
+}
+
+.time {
+   font-size: smaller;
+}
+
+.hasztag {
+    font-weight: bold;
+
+}
+
+.social_media {
+    height: 100px;
+}
+
 
