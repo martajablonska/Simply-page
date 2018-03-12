@@ -47,14 +47,15 @@ nav ul > li  {
     float:left;
 }
 
+
 .baner {
     background-image: url(images/background.png);
     background-size: cover;
-    /*-webkit-filter: brightness(0.4);
+    -webkit-filter: brightness(0.4);
     -moz-filter: brightness(0.4);
     -o-filter: brightness(0.4);
     -ms-filter: brightness(0.4);
-    filter: brightness(0.4);*/
+    filter: brightness(0.4);
     height: 530px;
     width: auto;
     display: flex;
@@ -63,9 +64,20 @@ nav ul > li  {
     
 }
 
+
+
 .baner_text {
     width: 522px;
+    height: 530px;
     text-align: center;
+    opacity: 1.0; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top:100px;
+    left:400px;
 }
 
 h1 {
