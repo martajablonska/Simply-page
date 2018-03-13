@@ -47,7 +47,7 @@ nav ul > li  {
     color:  #777777;
     font-size:14px;
     margin-right: 35px;
-    font-weight: 400;
+    font-weight: bold;
     float:left;
 }
 
@@ -81,6 +81,7 @@ nav ul > li > a:hover {
     width: 522px;
     height: 530px;
     text-align: center;
+    font-weight: bold;
     opacity: 1.0; 
     display: flex;
     flex-direction: column;
@@ -122,7 +123,21 @@ button {
     text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.7);
     margin-top: 56px;
     font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
 }
+
+.main_button a {
+    text-decoration: none;
+    color:inherit;
+}
+
+.main_button:hover {
+    background-color: white;
+    color:black;
+    text-shadow: none;
+    cursor: pointer;
+}
+
 
 .about {
     height: 535px;
@@ -139,7 +154,7 @@ button {
 .about h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: 40px;
-    font-weight: 700;
+    font-weight: bold;
     line-height: 75px;
 }
 
@@ -173,8 +188,8 @@ button {
 .about_container h4 {
     font-family: 'Montserrat', sans-serif;
     color:  #222222;
-    font-size: 18px;/
-    font-weight: 1200;
+    font-size: 18px;
+    font-weight: bold;
     line-height: 75px;
     text-align: center;
     margin-top: 0px;
@@ -230,7 +245,7 @@ button {
     font-family:  'Montserrat', sans-serif;
     color:  #ffffff;
     font-size: 40px;
-    font-weight: 700;
+    font-weight: bold;
     text-align: left;
     margin-bottom: 45px;
 }
@@ -364,11 +379,15 @@ button {
     font-family:  'Montserrat', sans-serif;
     color:  #7cc576;
     font-size: 16px;
-    font-weight: 700;
+    font-weight: bold;
     text-align: left;
     text-decoration: none;
     display: block;
     margin-top: 20px;
+}
+
+.portfolio a:hover {
+   font-size:17px;
 }
 
 .culture {
@@ -582,12 +601,25 @@ button {
     font-family: 'Montserrat', sans-serif;
     color:  #ffffff;
     font-size: 18px;
-    font-weight: 700;
+    font-weight: bold;
     line-height: 41px;
     text-align: center;
     text-shadow: none;
     margin: 0 auto 0 auto;
+    cursor: pointer;
+    
 }
+
+.contact a  {
+    text-decoration: none;
+}
+
+.contact button:hover {                
+    color:#7cc576;
+    background-color: #ffffff;  
+    text-decoration: none;            
+}
+
 
 .logotype {
     height: 165px;
@@ -622,7 +654,7 @@ button {
     font-family: 'Montserrat', sans-serif;
     color:  #ffffff;
     font-size: 18px;/
-    font-weight: 700;
+    font-weight: bold;
     text-align: left;
     margin-bottom: 31px;
 }
@@ -661,8 +693,17 @@ button {
     
 }
 
-.latest_post li {
+.latest_posts li {
     padding-left: 35px;
+}
+
+.latest_posts  a {
+    text-decoration: none;
+    color:white;
+}
+
+.latest_posts a:hover {
+    color:#7cc576;
 }
 
 .news {
@@ -685,11 +726,20 @@ button {
     line-height: 22px;
 }
 
-.latest_tweets ul> li {
+.latest_tweets ul > li {
     background: url(images/icon_twitter.png) no-repeat left top; 
     padding-left: 35px;
     margin-bottom: 19px;
     line-height: 22px;
+}
+
+.latest_tweets  a {
+    text-decoration: none;
+    color:white;
+}
+
+.latest_tweets a:hover {
+    color:#7cc576;
 }
 
 .time {
