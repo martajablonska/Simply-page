@@ -225,20 +225,28 @@ button {
     z-index: -1;
 }
 
-.rigth_blog { 
+.rigth_blog {                                                      
     width:970px;
     background-image: url(images/background_blog.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    -webkit-filter: brightness(0.4);
+    -moz-filter: brightness(0.4);
+    -o-filter: brightness(0.4);
+    -ms-filter: brightness(0.4);
+    filter: brightness(0.4);
    
 }
 
 .blog_text {
-    
     height: auto;
     margin-top: 100px;
     margin-left: 100px;
+    position: absolute;
+    top:1200px;
+    left:450px;
+    
 }
 
 .blog_text h2 {
@@ -261,19 +269,20 @@ button {
 
 .blog_text ul {                                     /*nie wiem jak to wyśrodkować na razie*/
     list-style-position: inside;
-    padding: 0px;
-    padding-left:90px;
-    background: url(images/list_check.png) no-repeat left top;
-    height: 75px;
-    display: table-cell;
-    vertical-align: middle;
-    padding-bottom: 20px;  
-       
+    height: 75px; 
+    margin-top: 22px;
+    margin-bottom: 40px;
 }
 
-
-
-
+.blog_text li {
+    padding-left: 47px;
+    margin-top:10px;
+    line-height: 33px;
+    color: #cccccc;
+    /*display: table-cell;
+    vertical-align: middle;*/
+    background: url(images/list_check.png) no-repeat left top;
+}
 
 .green {
     color:#7cc576;
