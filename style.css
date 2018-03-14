@@ -38,24 +38,26 @@ nav ul {
     margin:0;
     padding:0;
     list-style-type: none;
+    
 }
 
 nav ul > li  {
     text-decoration: none;
+    color:#777777;
     display: block;
     font-family: 'Montserrat', sans-serif;
-    color:  #777777;
     font-size:14px;
     margin-right: 35px;
     font-weight: bold;
     float:left;
 }
 
-nav ul > li > a  {
-    text-decoration: none;    
+.menu a {
+    text-decoration: none;
+    color:#777777;
 }
 
-nav ul > li > a:hover {
+.menu a:hover {
     color: #7cc576;
 }
 
@@ -332,7 +334,7 @@ button {
     margin-bottom: 24px;
 }
 
-.portfolio article p {   /*czemu tu mi robi taki duży margines na górze?*/
+.portfolio article p {   
     font-family:'Roboto Slab', serif;
     color:  #777777;
     font-size: 16px;
