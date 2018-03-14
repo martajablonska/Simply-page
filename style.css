@@ -1,16 +1,14 @@
 body {
     background-color: white;
     color: black;
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Montserrat', 'Roboto Slab', serif, sans-serif;
     display: flex;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: column; 
 }
 
 header {
-    height: 115px; 
-    
+    height: 115px;     
 }
 
 .header_container {
@@ -20,36 +18,23 @@ header {
     width:80%;
     display:flex;
     flex-direction: row;
+    justify-content: space-between;  
+    align-items: center;
+}
+
+.menu {                
+    display: flex;
+    flex-direction: row;
+    width:430px;
+    list-style-type: none; 
     justify-content: space-between;
-    align-content: center;
-  
-}
-
-.logo {
-    align-self: center;
-}
-
-nav {
-    align-self: center;
-
-}
-
-nav ul {
-    margin:0;
-    padding:0;
-    list-style-type: none;
-    
-}
-
-nav ul > li  {
-    text-decoration: none;
-    color:#777777;
-    display: block;
     font-family: 'Montserrat', sans-serif;
-    font-size:14px;
-    margin-right: 35px;
+    font-size:1rem;
     font-weight: bold;
-    float:left;
+}
+
+.menu li {
+    align-self: center;
 }
 
 .menu a {
@@ -60,6 +45,8 @@ nav ul > li  {
 .menu a:hover {
     color: #7cc576;
 }
+
+                                                  /*section baner*/
 
 .baner {
     background-image: url(images/background.png);
