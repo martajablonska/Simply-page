@@ -602,12 +602,12 @@ button {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    width: 927px;
+    width: 80%;
     margin:auto;
 }
 
 .latest_container > div {
-    width: 280px;
+    width: 40%;
     margin-top: 54px;  
 }
 
@@ -627,31 +627,24 @@ button {
     flex-direction: column;
 }
 
-
-.contact_us li:first-child {
-    background: url(images/icon_location.png) no-repeat left top; 
-     display: table-cell;
-    vertical-align: center;
-    padding-left: 35px;
-    margin-bottom: 20px;
-    
-}
-
-.contact_us li:nth-child(2) {
-    background: url(images/icon_phone.png) no-repeat left top; /*czemu mi tu ucina?*/
+.contact_us li {
     display: table-cell;
     vertical-align: center;
     padding-left: 35px;
     margin-bottom: 20px;
-    
+}
+
+.contact_us li:first-child {
+    background: url(images/icon_location.png) no-repeat left top; 
+}
+
+.contact_us li:nth-child(2) {
+    background: url(images/icon_phone.png) no-repeat left top; 
 }
 
 .contact_us li:last-child {
     background: url(images/icon_email.png) no-repeat left top; 
-     display: table-cell;
-    vertical-align: center;
-    padding-left: 35px;
-    
+    margin-bottom: 0;
 }
 
 .latest_posts li {
@@ -667,30 +660,27 @@ button {
     color:#7cc576;
 }
 
-.news {
-    background: url(images/icon_news.png) no-repeat left top; 
+.latest_posts li {
     padding-left: 35px;
     margin-bottom: 19px;
     line-height: 22px;
 }
 
+.news {
+    background: url(images/icon_news.png) no-repeat left top; 
+}
+
 .photo {
     background: url(images/icon_photo.png) no-repeat left top; 
-    padding-left: 35px;
-    margin-bottom: 19px;
-    line-height: 22px;
 }
 .media {
     background: url(images/icon_media.png) no-repeat left top; 
-    padding-left: 35px;
-    margin-bottom: 19px;
-    line-height: 22px;
 }
 
 .latest_tweets ul > li {
     background: url(images/icon_twitter.png) no-repeat left top; 
     padding-left: 35px;
-    margin-bottom: 19px;
+    margin-bottom: 20px;
     line-height: 22px;
 }
 
@@ -708,8 +698,8 @@ button {
 }
 
 .hasztag {
+    margin-top: 3px;
     font-weight: bold;
-
 }
 
 .social_media {
