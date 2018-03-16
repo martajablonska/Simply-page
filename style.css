@@ -536,7 +536,7 @@ button {
 	margin: auto 0  auto 0; 
     margin-right: 24px;
 }
-                        
+                      /*section contact*/               
 .contact {
     height: 250px;
     background-color:  #7cc576;
@@ -569,8 +569,7 @@ button {
     text-align: center;
     text-shadow: none;
     margin: 0 auto 0 auto;
-    cursor: pointer;
-    
+    cursor: pointer; 
 }
 
 .contact a  {
@@ -582,18 +581,17 @@ button {
     background-color: #ffffff;  
     text-decoration: none;            
 }
-
-
+                       /*logotype section*/
 .logotype {
     height: 165px;
-    width: 765px;
+    width: 60%;
     margin:auto;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
-
+                     /*latest section*/            
 .latest {
     height: 365px;
     background-color: black;
