@@ -445,17 +445,16 @@ button {
     position: relative;
     top:-80px;
 }
-
+                       /*section clients*/
 .clients {
-    height: 810px;
-    
+    height: 810px;   
 }
 
 .clients h2 {
     font-family:  'Montserrat', sans-serif;
     color:  #222222;
     font-size: 40px;
-    font-weight: 700;
+    font-weight: bold;
     text-align: center;
     margin-top: 100px;
     margin-bottom: 20px;   
@@ -468,15 +467,15 @@ button {
     font-weight: 400;
     text-align: center;
     margin:0;
-    margin-bottom: 86px;
+    margin-bottom: 70px;
 }
 
 .clients_flex {
     display: flex;
     justify-content: center;
     align-items: center;    
-    width: 940px;
-    margin-bottom: 62px;
+    width: 90%;
+    margin-bottom: 40px;
     margin-right: auto;
     margin-left: auto;
 }
@@ -537,7 +536,7 @@ button {
 	margin: auto 0  auto 0; 
     margin-right: 24px;
 }
-
+                        
 .contact {
     height: 250px;
     background-color:  #7cc576;
