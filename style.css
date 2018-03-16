@@ -292,12 +292,11 @@ button {
     margin-top: 19px;
     margin-bottom: 86px;
 }
+
 .ipad {
     float:left;
     position: absolute;
     right: 0;
-    max-width:60%;
-    height: auto;
 }
 
 .portfolio article {
@@ -321,7 +320,7 @@ button {
     font-weight: 400;
     text-align: left;
     display: block;
-    width: 360px;
+    width: 50%;
     margin-top: 0;   
 }
 
@@ -764,17 +763,20 @@ button {
     height: auto;
     width:80%;
     margin-top: 100px;
-    margin-left: 90px;
     position: absolute;
-    left:0;   
+    left:5%;   
     }
     .blog_text p {
         width:60%;
     }
     .ipad {
-        position: absolute;
-        right:-20%;
+        display: none;    
     }
+    .portfolio article p {
+        width:80%;
+    }
+
+    
     
     
 }
