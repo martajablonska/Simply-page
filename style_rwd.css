@@ -1,5 +1,10 @@
 @media (max-width:1250px) {
-    
+    .left_blog {
+        display: none;
+    }
+    .rigth_blog {
+        width:100%;
+    }
 }
 
 @media (min-width:950px) and (max-width:1249px) {
@@ -39,16 +44,15 @@
         height: 25%;
     }
     .about_container > div {
-        width: 90%;   
+        width: 80%;   
         margin-top: 2vw;    
     }
     .about_container h4 {
         font-size: 2.2vw;
     }
     .about_container p {
-          font-size: 1.8vw;
-   
-}
+          font-size: 1.8vw;  
+    }
 
 
 /*@media (max-width:1250px) {   delete img in blog and change img in portfolio sections ang change font size

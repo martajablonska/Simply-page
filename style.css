@@ -60,7 +60,7 @@ body {
     -o-filter: brightness(0.4);
     -ms-filter: brightness(0.4);
     filter: brightness(0.4);
-    height:50vw;
+    height:38vw;
     width: auto;
     display: flex;
     justify-content: center;
@@ -79,7 +79,7 @@ body {
     align-items: center;
     display:block;
     position:relative;
-    top:-35vw;
+    top:-30vw;
     left:30%;
     right:30%;
     margin-bottom: 0;
@@ -139,7 +139,7 @@ button {
 .about_text {
     text-align: center;
     margin-top: 0;
-    margin-bottom: 7vw;
+    margin-bottom: 5vw;
     font-family: 'Roboto Slab', serif;
 }
 
@@ -164,6 +164,7 @@ button {
     justify-content: space-around;
     flex-direction: row;
     align-items:  center;
+    flex-wrap: wrap;
     width:75%;
 }
 
@@ -203,11 +204,12 @@ button {
     display: flex;
     justify-content: center;
     flex-direction: row;
+    height: 45vw;
 }
 
 .left_blog {
     width:30%; 
-    height: 616px;
+    height: 100%;
     background-color: #e9e9e9;
     z-index: -2;
 }
@@ -220,7 +222,8 @@ button {
 }
 
 .rigth_blog {                                                      
-    width:70%;
+    width:100%;
+    height: 45vw;
     background-image: url(images/background_blog.png);
     background-position: center;
     background-repeat: no-repeat;
@@ -233,14 +236,14 @@ button {
 }
 
 .blog_text {
-    height: auto;
     width:50%;
     margin-top: 100px;
     margin-left: 90px;
     position: absolute;
-    top:1180px;
+    top:95vw;
     right: 33%;
-    left:33%;   
+    left:33%;
+    z-index: 1;
 }
 
 .blog_text h2 {
