@@ -1,4 +1,57 @@
-@media (max-width:1250px) {   /*delete img in blog and change img in portfolio sections ang change font size*/
+@media (max-width:1250px) {
+    
+}
+
+@media (min-width:950px) and (max-width:1249px) {
+    
+}
+
+@media (min-width:800px) and (max-width:949px) {
+ 
+}
+
+@media (max-width:800px) {
+       .menu {
+        display: none;   
+    }
+    .header_container img {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    button {
+        width: 25vw;
+        height: 8vw;
+        font-size: 2vw;
+    }
+    .about {
+        margin-top: -16vw;
+        margin-bottom: 7vw;
+}
+    .about_container {
+        margin: auto;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items:  center;
+        width:90%;
+    }
+    .about img {
+        height: 25%;
+    }
+    .about_container > div {
+        width: 90%;   
+        margin-top: 2vw;    
+    }
+    .about_container h4 {
+        font-size: 2.2vw;
+    }
+    .about_container p {
+          font-size: 1.8vw;
+   
+}
+
+
+/*@media (max-width:1250px) {   delete img in blog and change img in portfolio sections ang change font size
         
     
     h1 {
@@ -89,4 +142,60 @@
     .logotype {
         width:80%;
     }  
-}
+    .about {
+        height: 470px;
+    }
+    .about_text {
+        margin-top: 50px;
+    }
+    .blog_text {
+        margin-top: 50px;
+    }
+    .portfolio {
+        height: 600px;
+    }
+    .portfolio h2 {
+        margin-top: 50px;
+    }
+    .portfolio_header {
+        margin-bottom: 35px;
+    }
+    .list_li {
+    padding-bottom: 10px;  
+    }
+    .culture {
+        height: 450px;
+    }
+    .culture h2 {
+        margin-top: 50px;
+    }
+    .culture_container {
+        margin-top: 50px;
+    }
+    .clients {
+        height: 600px;
+    }
+    .clients h2 {
+        margin-top: 50px;
+    }
+    .clients p {
+        margin-bottom: 30px;
+    }
+    .clients_flex {
+        margin-bottom: 35px;
+    }
+    .foto {
+        height: 170px;
+        width: 170px;
+    }
+    .contact {
+        height: 200px;
+    }
+    .contact h2 {
+        margin-top: 40px;
+    }
+    .latest_container {
+        
+    }
+
+}*/
