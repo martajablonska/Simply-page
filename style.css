@@ -629,7 +629,7 @@ button {
 
                      /*latest section*/            
 .latest {
-    height: 365px;
+    height: 25vw;
     background-color: black;
     color:white;
 }
@@ -640,11 +640,12 @@ button {
     justify-content: center;
     width: 80%;
     margin:auto;
+    font-size: 1.2vw;
 }
 
 .latest_container > div {
     width: 40%;
-    margin-top: 54px;  
+    margin-top: 3vw;  
 }
 
 .latest_container > div > h4 {
@@ -653,7 +654,7 @@ button {
     font-size: 1.3vw;
     font-weight: bold;
     text-align: left;
-    margin-bottom: 31px;
+    margin-bottom: 2vw;
 }
 
 .contact_us ul {
@@ -666,8 +667,8 @@ button {
 .contact_us li {
     display: table-cell;
     vertical-align: center;
-    padding-left: 35px;
-    margin-bottom: 20px;
+    padding-left: 4vw;
+    margin-bottom: 3vw;
 }
 
 .contact_us li:first-child {
@@ -683,10 +684,6 @@ button {
     margin-bottom: 0;
 }
 
-.latest_posts li {
-    padding-left: 35px;
-}
-
 .latest_posts  a {
     text-decoration: none;
     color:white;
@@ -697,8 +694,8 @@ button {
 }
 
 .latest_posts li {
-    padding-left: 35px;
-    margin-bottom: 19px;
+    padding-left: 3vw;
+    margin-bottom: 1.5vw;
     line-height: 22px;
 }
 
@@ -715,9 +712,9 @@ button {
 
 .latest_tweets ul > li {
     background: url(images/icon_twitter.png) no-repeat left top; 
-    padding-left: 35px;
-    margin-bottom: 20px;
-    line-height: 22px;
+    padding-left: 3vw;
+    margin-bottom: 1.5vw;
+    line-height: 2vw;
 }
 
 .latest_tweets  a {
