@@ -70,7 +70,7 @@
     .about {
         margin-top: -16vw;
         margin-bottom: 7vw;
-}
+    }
     .about_container {
         margin: auto;
         display: flex;
@@ -118,6 +118,13 @@
     .culture_container p {            
         font-size: 1.5vw;    
         width:90%;
+    }
+    .foto {
+        display: none;
+    }
+    .clients_text {
+        width: 70vw;
+        height: 13vw;
 }
 }
 
