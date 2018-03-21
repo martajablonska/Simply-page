@@ -3,19 +3,58 @@
         display: none;
     }
     .rigth_blog {
-        width:100%;
+        width:100%;    
+    }
+    .blog_text {
+        width:80%;
+        margin-top: 7vw;
+        margin-left: 5vw;
+        position: absolute;
+        top:85vw;
+        right: 10vw;
+        left:10vw;
     }
 }
 
 @media (min-width:950px) and (max-width:1249px) {
-    
+   .blog_text {
+        position: absolute;
+        top:90vw;
+    }
+
 }
 
 @media (min-width:800px) and (max-width:949px) {
- 
+    .blog_text {
+        width:80%;
+        position: absolute;
+        top:95vw;
+    }
+    .blog_text li {
+    padding-left: 5vw;
+    }
+    .ipad {
+        display: none;
+    }
+    .line hr {
+        display: none;
+    }
+    .culture_container {
+        margin-top: 4vw;
+        width:90%;   
+    }
+    .culture_container img {
+        margin-bottom: 3.5vw;
+        width:30%;
+        height: auto;
+    }
+    .culture_container p {            
+        font-size: 1.5vw;    
+        width:90%;
+}
 }
 
-@media (max-width:800px) {
+@media (max-width:799px) {
        .menu {
         display: none;   
     }
@@ -24,9 +63,9 @@
         margin-right: auto;
     }
     button {
-        width: 25vw;
-        height: 8vw;
-        font-size: 2vw;
+        width: 20vw;
+        height: 6vw;
+        font-size: 1.7vw;
     }
     .about {
         margin-top: -16vw;
@@ -53,153 +92,32 @@
     .about_container p {
           font-size: 1.8vw;  
     }
-
-
-/*@media (max-width:1250px) {   delete img in blog and change img in portfolio sections ang change font size
-        
-    
-    h1 {
-        font-size:5vw;
-    }
-    .baner_text {
-        width: 60%;
-        margin-left: auto;
-        margin-right: auto; 
+    .blog_text {                 /*kurde jak tu to najlepiej zamieścić :/ */
+        width:80%;
         position: absolute;
-        top:18%;
-        left:20%;
-        right:20%;
+        top:115%;
     }
-    .baner_text p {
-        font-size: 2vw;
+    .blog_text li {
+        padding-left: 7vw;
     }
-    button {
-        font-size: 1.3vw;
-    }
-    .about_container h4 {
-        font-size: 1.6vw;
-    }
-    .about_container p {
-        font-size: 1.3vw;
-    }
-    .blog {                                                    
-        width:100%;
-        height: 616px;
-    }
-    .left_blog {
+     .ipad {
         display: none;
     }
-    .rigth_blog {
-        width:100%;
-    }
-    .blog_text {
-    height: auto;
-        width:80%;
-        margin-top: 100px;
-        position: absolute;
-        left:5%;   
-    }
-    .blog_text p {
-        width:60%;
-    }
-    .ipad {
-        display: none;    
-    }
-    .portfolio article h4 {
-        font-size: 1.6vw;
-    }
-    .portfolio article p {
-        width:80%;
-        font-size: 1.4vw;
-    }  
-    .portfolio a {
-        font-size: 1.4vw;
-    }
-    .portfolio a:hover {
-        font-size: 1.6vw;
-    }
-    .line hr {
+        .line hr {
         display: none;
-    }
-    .culture_container div {
-        margin-right: 5px;
-    }
-     .culture_container div:last-child {
-        margin-right: 0;
-    }
-    .culture_container h4 {
-        font-size: 1.6vw;
-    }
-    .culture_container p {
-        font-size: 1.4vw;
-    }
-    .clients_text blockquote {
-        font-size: 1.8vw;
-    }
-    .clients_text cite {
-        font-size: 1.5vw;
-    }
-    
-}
-
-@media (min-width:950px) and (max-width:1249px) {
-    .logotype {
-        width:80%;
-    }  
-    .about {
-        height: 470px;
-    }
-    .about_text {
-        margin-top: 50px;
-    }
-    .blog_text {
-        margin-top: 50px;
-    }
-    .portfolio {
-        height: 600px;
-    }
-    .portfolio h2 {
-        margin-top: 50px;
-    }
-    .portfolio_header {
-        margin-bottom: 35px;
-    }
-    .list_li {
-    padding-bottom: 10px;  
-    }
-    .culture {
-        height: 450px;
-    }
-    .culture h2 {
-        margin-top: 50px;
     }
     .culture_container {
-        margin-top: 50px;
+        margin-top: 4vw;
+        width:90%;   
     }
-    .clients {
-        height: 600px;
+    .culture_container img {
+        margin-bottom: 3.5vw;
+        width:30%;
+        height: auto;
     }
-    .clients h2 {
-        margin-top: 50px;
-    }
-    .clients p {
-        margin-bottom: 30px;
-    }
-    .clients_flex {
-        margin-bottom: 35px;
-    }
-    .foto {
-        height: 170px;
-        width: 170px;
-    }
-    .contact {
-        height: 200px;
-    }
-    .contact h2 {
-        margin-top: 40px;
-    }
-    .latest_container {
-        
-    }
+    .culture_container p {            
+        font-size: 1.5vw;    
+        width:90%;
+}
+}
 
-}*/

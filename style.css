@@ -237,10 +237,10 @@ button {
 
 .blog_text {
     width:50%;
-    margin-top: 100px;
-    margin-left: 90px;
+    margin-top: 7vw;
+    margin-left: 5vw;
     position: absolute;
-    top:95vw;
+    top:83vw;
     right: 33%;
     left:33%;
     z-index: 1;
@@ -252,7 +252,7 @@ button {
     font-size: 3.7vw;
     font-weight: bold;
     text-align: left;
-    margin-bottom: 45px;
+    margin-bottom: 2vw;
 }
 
 .blog_text p {
@@ -266,14 +266,14 @@ button {
 
 .blog_text ul {                                   
     list-style-position: inside;
-    height: 75px; 
-    margin-top: 22px;
-    margin-bottom: 35px;
+    height: 70%; 
+    margin-top: 2vw;
+    margin-bottom: 3vw;
 }
 
 .blog_text li {
-    padding-left: 47px;
-    margin-top:10px;
+    padding-left: 3.5vw;
+    margin-top:1vw;
     line-height: 33px;
     color: #cccccc;
     background: url(images/list_check.png) no-repeat left top;
@@ -282,9 +282,13 @@ button {
 .green {
     color:#7cc576;
 }
+
+.blog_text button {
+    margin-top: 1vw;
+}
                                 /*section portfolio*/
 .portfolio {
-    height: 824px;
+    height: 62vw;
 }
 
 .portfolio h2 {
@@ -293,7 +297,7 @@ button {
     font-size: 3.7vw;
     font-weight: 700;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 6vw;
     margin-bottom: 0;
 }
 
@@ -303,14 +307,16 @@ button {
     font-size: 1.7vw;
     font-weight: 400;
     text-align: center;
-    margin-top: 19px;
-    margin-bottom: 86px;
+    margin-top: 1.7vw;
+    margin-bottom: 5vw;
 }
 
 .ipad {
     float:left;
     position: absolute;
     right: 0;
+    width:auto;
+    height: 100%;
 }
 
 .portfolio article {
@@ -324,7 +330,7 @@ button {
     font-size: 1.3vw;
     font-weight: bold;
     text-align: left;
-    margin-bottom: 24px;
+    margin-bottom: 1.5vw;
 }
 
 .portfolio article p {   
@@ -335,19 +341,21 @@ button {
     text-align: left;
     display: block;
     width: 50%;
-    margin-top: 0;   
+    margin-top: 0.2vw;
 }
 
 .pseudo_list {
-    margin-top: 28px;
+    margin-top: 3vw;
+    margin-bottom: 1.5vw;
 }
 
 .list_li {
-    padding-left:90px;
-    height: 75px;
+    padding-left:7vw;
+    height: 6vw;
     display: table-cell;
     vertical-align: middle;
-    padding-bottom: 20px;  
+    padding-bottom: 1vw; 
+    width:40%;
 }
 
 .list_li h4 {
@@ -360,7 +368,7 @@ button {
 }
 
 .list_li p {
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Roboto Slab', serif;                              
     color:  #777777;
     font-size: 1.1vw;
     font-weight: 400;
@@ -368,15 +376,21 @@ button {
 }
 
 .basket {
-    background: url(images/icon_basket.png) no-repeat left top;     
+    background: url(images/icon_basket.png) no-repeat left top;              /*nie moge zrobić przerwy między nimi*/
+    background-size: contain;
+    height:4vw;
 }
 
 .laptop {
-    background: url(images/icon_laptop.png) no-repeat left top;    
+    background: url(images/icon_laptop.png) no-repeat left top;
+    background-size: contain;
+    height:4vw;
 }
 
 .locked {
-    background: url(images/icon_locked.png) no-repeat left top;    
+    background: url(images/icon_locked.png) no-repeat left top; 
+    background-size: contain;
+    height:4vw;
 }
 
 .portfolio a {
@@ -387,7 +401,7 @@ button {
     text-align: left;
     text-decoration: none;
     display: block;
-    margin-top: 20px;
+    margin-top: 2vw;
 }
 
 .portfolio a:hover {
@@ -396,7 +410,7 @@ button {
                               /* section culture*/
 .culture {
     background-color:  #f9f9f9;
-    height: 560px; 
+    height: 42vw; 
 }
 
 .culture h2 {
@@ -406,8 +420,8 @@ button {
     font-weight: 700;
     line-height: 36px;
     text-align: center;
-    margin-top: 100px;
-    margin-bottom: 18px;
+    margin-top: 6vw;
+    margin-bottom: 2vw;
 }
 
 .culture p {
@@ -423,17 +437,19 @@ button {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin-top: 90px;
+    margin-top: 7vw;
     margin-right: auto;
     margin-left: auto;
     width:80%;   
 }
 
 .culture_container img {
-    margin-bottom: 29px;
+    margin-bottom: 3.5vw;
     display: block;
     margin-right: auto;
     margin-left: auto;
+    width:40%;
+    height: auto;
 }
 
 .culture_container h4 {
@@ -450,14 +466,15 @@ button {
     font-size: 1.1vw;
     font-weight: 400;
     text-align: center;
-    margin-top: 18px;  
+    margin-top: 1vw;  
+    width:100%;
 }
 
 .line hr {                        
     background-color:  #777777;
-    width: 171px;
+    width: 15vw;
     position: relative;
-    top:-80px;
+    top:-6vw;
 }
                        /*section clients*/
 .clients {
