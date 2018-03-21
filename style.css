@@ -618,7 +618,7 @@ button {
 }
                        /*logotype section*/
 .logotype {
-    height: 165px;
+    height: 12vw;
     width: 60%;
     margin:auto;
     display: flex;
@@ -626,6 +626,7 @@ button {
     justify-content: space-between;
     align-items: center;
 }
+
                      /*latest section*/            
 .latest {
     height: 365px;

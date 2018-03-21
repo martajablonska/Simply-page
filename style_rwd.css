@@ -21,6 +21,9 @@
         position: absolute;
         top:90vw;
     }
+    .logotype {
+    width: 80%;
+    }
 
 }
 
@@ -51,6 +54,10 @@
     .culture_container p {            
         font-size: 1.5vw;    
         width:90%;
+    }
+    .logotype {
+    width: 90%;
+
 }
 }
 
