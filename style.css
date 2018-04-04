@@ -15,7 +15,7 @@ body {
     margin-right: auto;
     margin-bottom: 2.5vw;
     width:100%;
-    height: 13%;
+    height: 5rem;
     display:flex;
     flex-direction: row;
     justify-content: space-between;  
@@ -43,6 +43,8 @@ body {
     font-size:1rem;
     font-weight: bold;
     margin-right: 3vw;
+    overflow: hidden;
+    background-color: white;
 }
 
 .menu li {
@@ -52,11 +54,14 @@ body {
 .menu a {
     text-decoration: none;
     color:#777777;
+    display: block;
 }
 
 .menu a:hover {
     color: #7cc576;
 }
+
+
 
                                                   /*section baner*/
 .main {
@@ -79,7 +84,6 @@ body {
     background-repeat: no-repeat;
 }
 
-
 .baner_text {
     width: 40%;
     height: 100%;
@@ -92,7 +96,7 @@ body {
     align-items: center;
     display:block;
     position:absolute;
-    top:25%;
+    top:8rem;
     left:30%;
     right:30%;
     margin-bottom: 0;
@@ -533,8 +537,8 @@ button {
 
 .clients_text {
     background-color:  #f9f9f9;
-    width: 45vw;
-    height: 13vw;
+    width: 45rem;
+    height: 11rem;
     margin-bottom:0;
     margin-right: 0px;
     margin-left: 0px;
@@ -546,7 +550,7 @@ button {
     font-size: 1.4rem;
     font-weight: 400;
     text-align: center;
-    margin-top: 2.5rem;
+    margin: 2.5rem;
     margin-bottom: 1.5rem;
     width:95%;
     margin-left: auto;
@@ -607,8 +611,8 @@ button {
     border-color:  #ffffff;
     border-radius: 10px;
     background-color:  #7cc576;
-    width: 13vw;
-    height: 4vw;
+    width: 10rem;
+    height: 3rem;
     font-family: 'Montserrat', sans-serif;
     color:  #ffffff;
     font-size: 1.2rem;
@@ -709,8 +713,8 @@ button {
 
 .latest_posts li {
     padding-left: 2rem;
-    margin-bottom: 1.5rem;
-    line-height: 1.7rem;
+    margin-bottom: 1.2rem;
+    line-height: 1.4rem;
 }
 
 .news {
