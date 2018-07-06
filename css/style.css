@@ -1,24 +1,35 @@
+/***************   main style for whole page    *********/
+
+* {
+    box-sizing: border-box;
+}
+
 body {
-    background-color: white;
-    color: black;
+    background-color: #ffff;
     font-family: 'Montserrat', 'Roboto Slab', serif, sans-serif;
-    font-size:16px;
+    font-size:1.2rem;
     display: flex;
     justify-content: center;
     flex-direction: column; 
     width:100%;
     height: auto;
 }
+/*class for fonts*/
+
+.montserrat {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/***************    header style    *********************/
 
 .header_container {
-    margin-left:auto;
-    margin-right: auto;
-    margin-bottom: 2.5vw;
     width:100%;
-    height: 5rem;
+    height: 4.2rem;
+    padding-left: 13rem;
+    padding-right: 13rem;
     display:flex;
-    flex-direction: row;
-    justify-content: space-between;  
+    flex-direction: row; 
+    justify-content: space-between;
     align-items: center;
     position: fixed;
     top:0;
@@ -29,41 +40,50 @@ body {
 	box-shadow: 0 1px #FFFFFF inset, 0 1px 3px rgba(34, 25, 25, 0.4);
 }
 
-.header_container img {
-    margin-left:3vw;
+.menu ul{                
+    list-style-type: none; 
+    font-size:0.7rem;
+    font-weight: bold;
+    margin-right:6rem;
+    padding-bottom: 2rem;
 }
 
-.menu {                
-    display: flex;
-    flex-direction: row;
-    width:30rem;
-    list-style-type: none; 
-    justify-content: space-between;
-    font-family: 'Montserrat', sans-serif;
-    font-size:1rem;
-    font-weight: bold;
-    margin-right: 3vw;
-    overflow: hidden;
-    background-color: white;
+nav li {
+   
 }
 
 .menu li {
-    align-self: center;
+    float: left;
+    margin: 1rem;
 }
 
-.menu a {
+.menu li > a {
     text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
     color:#777777;
     display: block;
+    cursor: pointer;
 }
 
-.menu a:hover {
+.menu li > a:hover {
     color: #7cc576;
 }
 
+/*#hamburger {
+    display: none;
+    background: white;
+    color: black;
+    padding: 5px 10px;
+    float: right;
+    font-size: 1.4em;
+    border:none;
+}
 
-
-                                                  /*section baner*/
+#hamburger:before { 
+    content:'\2630'; 
+}*/
+                                      /*section baner*/
 .main {
     width: auto;
     margin-top:5%;
@@ -71,7 +91,7 @@ body {
 }
 
 .baner {
-    background-image: url(images/background.png);
+    background-image: url(../images/background.png);
     background-size: cover;
     -webkit-filter: brightness(0.4);
     -moz-filter: brightness(0.4);
@@ -119,7 +139,7 @@ h1 {
     font-family: 'Roboto Slab', serif;    
 }
 
-button {
+.main_button {
     background-color: #7cc576;
     border:none;
     border-radius: 25px;

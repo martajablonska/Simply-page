@@ -12,3 +12,11 @@ function scroll(e) {
 };
 
 $('a[href*="#"]').click(scroll);
+
+
+$(document).ready(function() {
+    ('.hamburger').click(function(){
+    $('.menu').slideToggle(800);
+});
+});
+    

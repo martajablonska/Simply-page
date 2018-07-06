@@ -68,12 +68,24 @@
     }
 }
 
-@media (max-width:760px) {               
+@media (max-width:760px) { 
     .header_container img {         /*header section*/
         margin-left:3rem;
     }
-    .menu {                
-        display: none;
+    .menu {
+        height: 0;
+        overflow: hidden;
+        transition: height 0.3s linear;
+    }
+    .slide-down {
+        height: 275px;
+    }
+    .hamburger {
+        display: block;
+        font-family: 'Montserrat', sans-serif;
+    }
+    nav li {
+        width:100%;
     }
     .baner_text {                   /*baner section*/
         width: 100%;
