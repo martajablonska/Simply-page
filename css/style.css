@@ -6,8 +6,6 @@
 
 body {
     background-color: #ffff;
-    font-family: 'Montserrat', 'Roboto Slab', serif, sans-serif;
-    font-size:1.2rem;
     display: flex;
     justify-content: center;
     flex-direction: column; 
@@ -22,16 +20,76 @@ body {
 
 h1 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 3.5rem;
+    font-size: 3.7rem;
     font-weight:bold;
     text-transform: uppercase;
     margin-bottom: 3vw;
-    color:white;
+    color:#ffff;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.2rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+}
+
+h4 {
+    font-family: 'Montserrat', sans-serif;
+    color:  #222222;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
 }
 
 p {
     font-family: 'Roboto Slab', serif;
-    color:#cccccc;
+    color:  #777777;
+    font-weight: 400;
+    text-align: center;
+}
+
+.p_after_h2 {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 3rem;
+    font-size:1.5rem;
+}
+
+.p_after_h4 {
+    font-size: 1.5rem;
+}
+
+.main_button {
+    background-color: #7cc576;
+    border:none;
+    border-radius: 25px;
+    color: #ffff;
+    width: 12rem;
+    height: 3rem;
+    font-size: 1rem;
+    text-align: center;
+    text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.7);
+    margin-top: 4vw;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.main_button a {
+    text-decoration: none;
+    color:inherit;
+}
+
+.main_button:hover {
+    background-color: white;
+    color:black;
+    text-shadow: none;
+    cursor: pointer;
 }
 
 /***************    header style    *********************/
@@ -116,8 +174,8 @@ p {
     background-repeat: no-repeat;
 }
 
-.baner_text {
-    width: 40%;
+.baner_header {
+    width: 45%;
     height: 100%;
     text-align: center;
     font-weight: bold;
@@ -134,40 +192,16 @@ p {
     margin-bottom: 0;
 }
 
-.baner_text p {
+.baner_header p {
     margin-top:0;
     font-size:1.5rem;
     font-weight: 400;
-    text-align: center;  
-}
-
-.main_button {
-    background-color: #7cc576;
-    border:none;
-    border-radius: 25px;
-    color: white;
-    width: 12rem;
-    height: 3rem;
-    font-size: 1rem;
     text-align: center;
-    text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.7);
-    margin-top: 4vw;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
+    color:#cccccc;
 }
 
-.main_button a {
-    text-decoration: none;
-    color:inherit;
-}
+/********************** about style *********************/
 
-.main_button:hover {
-    background-color: white;
-    color:black;
-    text-shadow: none;
-    cursor: pointer;
-}
-                                  /* section about*/
 .about {
     height: 30%;
     width: auto;
@@ -175,26 +209,10 @@ p {
     margin-bottom: 4rem;
 }
 
-.about_text {
+.about_header {
     text-align: center;
     margin-top: 0;
     margin-bottom: 3rem;
-    font-family: 'Roboto Slab', serif;
-}
-
-.about h2 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 3.2rem;
-    font-weight: bold;
-    margin-bottom: 2rem;
-}
-
-.about p {
-    color:  #777777;
-    font-size: 1.5rem;
-    font-weight: 400;
-    text-align: center;
-    font-family: 'Roboto Slab', serif;
 }
 
 .about_container {
@@ -218,16 +236,6 @@ p {
     margin-left: auto;
     width:auto;
     height: 17%;
-}
-
-.about_container h4 {
-    font-family: 'Montserrat', sans-serif;
-    color:  #222222;
-    font-size: 1.2rem;
-    font-weight: bold;
-    text-align: center;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
 }
 
 .about_container p {
