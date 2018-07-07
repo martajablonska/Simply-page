@@ -317,8 +317,6 @@ p {
     background: url(../images/icons/list_check.png) no-repeat left top;
 }
 
-
-
 .blog_text button {
     margin-top: 1rem;
 }
@@ -458,32 +456,19 @@ p {
     width:100%;
 }
 
-                       /*section clients*/
+/********************    section clients    *************/
+
 .clients {
     height: 47rem;   
 }
 
 .clients h2 {
-    font-family:  'Montserrat', sans-serif;
-    color:  #222222;
-    font-size: 3rem;
-    font-weight: bold;
     text-align: center;
     margin-top: 4rem;
     margin-bottom: 1.5rem;   
  }
 
-.clients p {
-    font-family:'Roboto Slab', serif;
-    color:  #777777;
-    font-size: 1.5rem;
-    font-weight: 400;
-    text-align: center;
-    margin:0;
-    margin-bottom: 3rem;
-}
-
-.clients_flex {
+.clients_item {
     display: flex;
     justify-content: center;
     align-items: center;    
@@ -504,7 +489,8 @@ p {
 }
 
 .clients_text {
-    background-color:  #f9f9f9;
+    color:  #777777;
+    background-color: #f9f9f9;
     width: 45rem;
     height: 11rem;
     margin-bottom:0;
@@ -513,8 +499,6 @@ p {
 }
 
 .clients_text blockquote {
-    font-family: 'Roboto Slab', serif;
-    color:  #777777;
     font-size: 1.4rem;
     font-weight: 400;
     text-align: center;
@@ -526,7 +510,6 @@ p {
 }
 
 .clients_text cite {
-    font-family: 'Roboto Slab', serif;
     color:  #7cc576;
     font-size: 1.2rem;
     font-weight: 400;
@@ -534,25 +517,24 @@ p {
     text-align: center;
 }
 
-.triangle_left {
+.triangle {
     width: 0;
 	height: 0;
 	border-top: 1vw solid transparent;
 	border-bottom: 1vw solid transparent;
+    margin: auto 0  auto 0; 
+}
+
+.triangle_left {
 	border-right: 1.8vw solid #f9f9f9;
-	margin: auto 0  auto 0;
     margin-left: 3vw;
 }
 
 .triangle_rigth {
-    width: 0;
-	height: 0;
-	border-top: 1vw solid transparent;
-	border-bottom: 1vw solid transparent;
 	border-left: 1.8vw solid #f9f9f9;
-	margin: auto 0  auto 0; 
     margin-right: 2vw;
 }
+
                       /*section contact*/               
 .contact {
     height: 18rem;
