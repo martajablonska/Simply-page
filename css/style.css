@@ -442,6 +442,10 @@ p {
     width:70%;   
 }
 
+.culture_container div {
+    width:28%;
+}
+
 .culture_container img {
     margin-bottom: 3.5rem;
     display: block;
@@ -456,7 +460,7 @@ p {
     width:100%;
 }
 
-/********************    section clients    *************/
+/********************    clients style      *************/
 
 .clients {
     height: 47rem;   
