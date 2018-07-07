@@ -66,7 +66,6 @@ p {
     color:  #777777;
     text-align: center;
     margin-top: 0;
-    font-family: 'Roboto Slab', serif;
 }
 
 .main_button {
@@ -299,7 +298,6 @@ p {
 
 .blog_text p {
     width:80%;
-    color:  #cccccc;
     font-size: 1.2rem;
     text-align: left;
 }
@@ -324,27 +322,21 @@ p {
 .blog_text button {
     margin-top: 1rem;
 }
-                                /*section portfolio*/
+
+/*******************   portfolio style    ***************/
+
 .portfolio {
     height: 53rem;
 }
 
 .portfolio h2 {
-    font-family:  'Montserrat', sans-serif;
     color:#222222;
-    font-size: 3rem;
-    font-weight: 700;
     text-align: center;
     margin-top: 3rem;
     margin-bottom: 0;
 }
 
 .portfolio_header {
-    font-family: 'Roboto Slab', serif;
-    color:  #777777;
-    font-size: 1.6rem;
-    font-weight: 400;
-    text-align: center;
     margin-top: 2rem;
     margin-bottom: 3rem;
 }
@@ -362,20 +354,11 @@ p {
     margin-top: 0; 
 }
 
-.portfolio h4 {
-    font-family:  'Montserrat', sans-serif;
-    color:  #222222;
-    font-size: 1.2rem;
-    font-weight: bold;
+.portfolio article h4 {
     text-align: left;
-    margin-bottom: 1.5rem;
 }
 
 .portfolio article p {   
-    font-family:'Roboto Slab', serif;
-    color:  #777777;
-    font-size: 1rem;
-    font-weight: 400;
     text-align: left;
     line-height: 1.2rem;
     display: block;
@@ -389,47 +372,36 @@ p {
 }
 
 .list_li {
-    padding-left:5rem;
-    height: 3rem;
+    padding-left:6rem;
+    height: 5.2rem;
     display: table-cell;
     vertical-align: middle;
     padding-bottom: 1rem;
     width:40%;
+    background-size: contain;
 }
 
 .list_li h4 {
-    font-family:  'Montserrat', sans-serif;
-    color:  #222222;
-    font-size: 1.1rem;
-    font-weight: bold;
     text-align: left;
+    margin-top: 0;
     margin-bottom: 0;
+    text-transform: none;
 }
 
 .list_li p {
-    font-family: 'Roboto Slab', serif;                              
-    color:  #777777;
-    font-size: 1rem;
-    font-weight: 400;
     text-align: left;
 }
 
 .basket {
-    background: url(images/icon_basket.png) no-repeat left top;              /*nie moge zrobić przerwy między nimi*/
-    background-size: contain;
-    height:3.5rem;
+    background: url(../images/icons/icon_basket.png) no-repeat left top;              /*nie moge zrobić przerwy między nimi*/
 }
 
 .laptop {
-    background: url(images/icon_laptop.png) no-repeat left top;
-    background-size: contain;
-    height:3.5rem;
+    background: url(../images/icons/icon_laptop.png) no-repeat left top;
 }
 
 .locked {
-    background: url(images/icon_locked.png) no-repeat left top; 
-    background-size: contain;
-    height:3.5rem;
+    background: url(../images/icons/icon_locked.png) no-repeat left top; 
 }
 
 .portfolio a {
@@ -441,6 +413,7 @@ p {
     text-decoration: none;
     display: block;
     margin-top: 1.5rem;
+    text-transform: uppercase;
 }
 
 .portfolio a:hover {
