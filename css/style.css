@@ -535,17 +535,14 @@ p {
     margin-right: 2vw;
 }
 
-                      /*section contact*/               
+/*******************  contact style     **************/     
 .contact {
     height: 18rem;
     background-color:  #7cc576;
 }
 
 .contact h2 {
-    font-family: 'Montserrat', sans-serif;
     color:  #ffffff;
-    font-size: 3rem;
-    font-weight: 700;
     text-align: center;
     margin-top: 4rem;
     margin-bottom: 3rem;
@@ -572,6 +569,7 @@ p {
     text-shadow: none;
     margin: 0 auto 0 auto;
     cursor: pointer; 
+    text-transform: uppercase;
 }
 
 .contact a  {
@@ -581,8 +579,8 @@ p {
 .contact button:hover {                
     color:#7cc576;
     background-color: #ffffff;  
-    text-decoration: none;            
 }
+
                        /*logotype section*/
 .logotype {
     height: 10rem;
