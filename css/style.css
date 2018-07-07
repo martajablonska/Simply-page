@@ -419,28 +419,18 @@ p {
 .portfolio a:hover {
    font-size:1.4rem;
 }
-                              /* section culture*/
+
+/******************    culture style     ***************/
+
 .culture {
     background-color:  #f9f9f9;
     height: 37rem; 
 }
 
 .culture h2 {
-    font-family:  'Montserrat', sans-serif;
-    color:  #222222;
-    font-size: 3rem;
-    font-weight: 700;
     text-align: center;
     margin-top: 4rem;
     margin-bottom: 1.7rem;
-}
-
-.culture p {
-    font-family: 'Roboto Slab', serif;
-    color:  #777777;
-    font-size: 1.5rem;
-    font-weight: 400;
-    text-align: center;
 }
 
 .culture_container {
@@ -451,7 +441,7 @@ p {
     margin-top: 6rem;
     margin-right: auto;
     margin-left: auto;
-    width:80%;   
+    width:70%;   
 }
 
 .culture_container img {
@@ -463,30 +453,11 @@ p {
     height: auto;
 }
 
-.culture_container h4 {
-    font-family:  'Montserrat', sans-serif;
-    color:  #222222;
-    font-size: 1.1rem;
-    font-weight: 700;
-    text-align: center;   
-}
-
 .culture_container p {            
-    font-family: 'Roboto Slab', serif;
-    color:  #777777;
-    font-size: 1rem;
-    font-weight: 400;
-    text-align: center;
     margin-top: 1rem;  
     width:100%;
 }
 
-.line hr {                        
-    background-color:  #777777;
-    width: 15vw;
-    position: relative;
-    top:-6rem;
-}
                        /*section clients*/
 .clients {
     height: 47rem;   
