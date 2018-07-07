@@ -11,6 +11,7 @@ body {
     flex-direction: column; 
     width:100%;
     height: auto;
+    font-family: 'Roboto Slab', serif;
 }
 /*class for fonts*/
 
@@ -94,6 +95,10 @@ p {
     color:black;
     text-shadow: none;
     cursor: pointer;
+}
+
+.green {
+    color:#7cc576;
 }
 
 /***************    header style    *********************/
@@ -242,8 +247,8 @@ p {
     height: 17%;
 }
 
+/********************   blog style   *******************/
 
-                                    /*section blog*/
 .blog {
     display: flex;
     justify-content: center;
@@ -265,10 +270,10 @@ p {
     z-index: -1;
 }
 
-.rigth_blog {                                                      
+.rigth_blog {                                             
     width:100%;
     min-height: 100%;
-    background-image: url(images/background_blog.png);
+    background-image: url(../images/backgrounds/background_blog.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -287,29 +292,22 @@ p {
     position: absolute;
     right:10rem;
 }
-
 .blog_text h2 {
-    font-family:  'Montserrat', sans-serif;
     color:  #ffffff;
-    font-size: 3rem;
-    font-weight: bold;
     text-align: left;
-    margin-bottom: 2rem;
 }
 
 .blog_text p {
     width:80%;
-    font-family: 'Roboto Slab', serif;
     color:  #cccccc;
     font-size: 1.2rem;
-    font-weight: 400;
     text-align: left;
 }
 
 .blog_text ul {                                   
     list-style-position: inside;
     height: 70%; 
-    margin-top: 1rem;
+    margin-top: 1.2rem;
     margin-bottom: 1rem;
 }
 
@@ -318,12 +316,10 @@ p {
     margin-top:1rem;
     line-height: 2rem;
     color: #cccccc;
-    background: url(images/list_check.png) no-repeat left top;
+    background: url(../images/icons/list_check.png) no-repeat left top;
 }
 
-.green {
-    color:#7cc576;
-}
+
 
 .blog_text button {
     margin-top: 1rem;
