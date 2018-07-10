@@ -1,4 +1,4 @@
-@media (max-width:1250px) {/*************       1250px      *********/     
+@media (max-width:1250px) {/*************       1250px breakpoint  *******/     
   
                                             /*header section*/
     .header_container {
@@ -49,7 +49,7 @@
     }
 }
 
-@media (max-width:1010px) { /**************    1010 px ***************/
+@media (max-width:1010px) { /**************    1010px breakpoint *********/
     
                                                 /*header section*/
     .header_container {
@@ -141,7 +141,7 @@
     }
 }
                                 
-@media (max-width:760px) {/**************    760px     ************/
+@media (max-width:760px) {/**************    760px breakpoint ************/
 
                                         /*header section*/
     .header_container {
@@ -169,7 +169,7 @@
     }
     
     h4 {
-        font-size: 0.9rem;
+        font-size: 1rem;
         margin-top: 1rem;
         margin-bottom: 1rem;
     }
@@ -180,7 +180,7 @@
     }
     
     .p_after_h4 {
-        font-size: 0.8rem;
+        font-size: 1rem;
     } 
     
     .baner_text {                   /*baner section*/
@@ -276,9 +276,13 @@
     }
 }
 
-@media (max-width:600px) {
-    .about {                /*about section*/
-        height: 40rem;
+@media (max-width:600px) {/************    600px breakpoint     *********/
+    
+    .menu {
+        display: none;
+    }
+    .about {                                /*about section*/
+        height: 38rem;
     }
     .about_container {
         display: flex;
@@ -286,8 +290,9 @@
         flex-direction: column;
         align-items:  center;
         flex-wrap: wrap;
-        width:95%;
+        width:90%;
         }
+    
     .about_container > div {
         width: 100%;
         margin-bottom: 1.5rem;
@@ -296,62 +301,102 @@
         margin-top: 1rem;
         margin-bottom: 1rem;
     }
-    .culture {              /*culture section*/
+                                    /*portfolio section*/
+    
+    .portfolio {
+        height: 43rem;
+    }
+                                        /*clients section*/
+    
+    .clients {
+        height: 35rem; 
+    }
+    
+    .clients_text {
+        width: 45rem;
+        height: 9rem;
+    }
+    
+    .clients_text blockquote {
+        margin: 1.5rem;
+    }
+    
+    .culture {                                 /*culture section*/
         height: 47rem; 
     }
+    
     .culture_container {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        margin-top: 1rem;
-        margin-right: auto;
-        margin-left: auto;
         width:95%;   
     }
+    
+    .culture_container div {
+        width:80%;
+    }
+    
     .culture_container img {
         margin-top: 1rem;
         margin-bottom: 1rem;
         width:auto;
         height: 4rem;
     }
-    .contact {          /*contact section*/
-        height: 15rem;
+    
+    .contact {                           /*contact section*/
+        height: 13rem;
     }
     .contact h2 {
         font-size: 2rem;
         margin-top: 2rem;
         margin-bottom: 2rem;
         width:95%;
-    }                   /*latest section*/
+    }
+                                            /*latest section*/
     .latest {
         height: 40rem;
         background-color: black;
         color:white;
     }
+    
     .latest_container {
         display: flex;
         flex-direction: column;
         justify-content: center;
         width: 95%;
     }
+    
     .latest_container > div > h4 {
         text-align: center;
         margin-bottom: 1rem;
     }
+    
     .latest_container > div {
         width: 100%;
         margin-top: 1.5rem; 
         margin-left: 1rem;
     }
+    
     .contact_us ul {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         width:95%;
     }
+                                             /*social media section*/
+    .social_media {
+        margin-left: 1rem;
+    }
+    
+    .social_logos {
+        width:60%;
+        margin-right: 1rem;
+    }
 }
 
-@media (max-width:500px) {
+@media (max-width:500px) {/***************** 500px breakpoint ************/
+    
+  
     .main {             /*baner section*/
     height:20rem;
     }
