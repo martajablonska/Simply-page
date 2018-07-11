@@ -145,19 +145,25 @@ p {
     color: #7cc576;
 }
 
-/*#hamburger {
+.hamburger {
     display: none;
-    background: white;
-    color: black;
-    padding: 5px 10px;
+    background: none;
+    color: #777777;
+    width:3rem;
+    height: 3rem;
+    margin:2rem;
     float: right;
-    font-size: 1.4em;
+    font-size: 2rem;
     border:none;
+    position: absolute;
+    top:-1.7rem;
+    right:0;
+    z-index: 3;
 }
 
-#hamburger:before { 
+.hamburger:before { 
     content:'\2630'; 
-}*/
+}
 
 /*********************  baner style   *******************/
 

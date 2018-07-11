@@ -1,4 +1,4 @@
-function scroll(e) {
+/*function scroll(e) {
 
     var href = $(this).attr('href');
     e.preventDefault();
@@ -11,12 +11,17 @@ function scroll(e) {
 
 };
 
-$('a[href*="#"]').click(scroll);
-
-
-$(document).ready(function() {
-    ('.hamburger').click(function(){
-    $('.menu').slideToggle(800);
-});
-});
+$('a[href*="#"]').click(scroll);*/
     
+
+$(document).ready(function(){
+    
+    let width= window.innerWidth;
+    
+    if(width<600) {
+        $('#menu').hide();
+        $("#hamburger").click(function(){
+            $('#menu').slideToggle();
+        });
+    };
+});
