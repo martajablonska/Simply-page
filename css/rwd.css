@@ -396,83 +396,124 @@
 
 @media (max-width:500px) {/***************** 500px breakpoint ************/
     
+                                            /*main style*/
+    h1 {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+        
+    h2 {
+        font-size: 1.6rem;
+    }
+    
+    h4 {
+        font-size: 0.9rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    
+    .p_after_h2 {
+        margin-bottom: 1rem;
+        font-size:0.9rem;
+    }
+    
+    .p_after_h4 {
+        font-size: 0.9rem;
+    } 
   
-    .main {             /*baner section*/
+    .main {                                    /*baner section*/
     height:20rem;
     }
+    
     .baner {
         min-height:20rem;
     }
-    h1 {
-    font-size: 2rem;
+    
+    .baner_header {
+        top:6rem;
     }
-    .baner_text p {
+    
+    .baner_header p {
         font-size:1rem;
     }
-    .about h2 {         /*about section*/
-        font-size: 2rem;
+  
+    .about {
+        height: 35rem;
+        margin-top:2rem;
+        margin-bottom: 2rem;
     }
-    .about p {
-        font-size: 1rem;
+    .about_header {
+        margin-bottom: 1rem;
     }
-    .about_container h4 {
-        font-size: 1rem;
+                                                 /*blog section*/
+    .blog {
+        height: 27rem;
     }
-    .about_container p {
-        font-size: 0.9rem;
-    }
-    .blog_text {        /*blog section*/
+    
+    .blog_text {  
+        margin-top: 1.5rem;
         width:90%;
         margin-left:0;
     }
-    .blog_text h2 {
-        font-size: 2rem;
-    }
+
     .blog_text p {
         width:90%;
-        font-size: 1rem;
+        font-size: 0.9rem;
     }
-    .portfolio h2 {     /*portfolio section*/
-        font-size: 2rem;
+                                            /* portfolio section*/
+
+    .portfolio {
+        height: 40rem;
     }
-    .portfolio_header {
-        font-size: 1rem;
+    
+    .portfolio h2 {
+        margin-top: 1.5rem;
     }
+    
     .portfolio article {
         margin-left: 5%; 
     }
-    .portfolio h4 {
-        font-size: 1rem;
-    }
+  
     .portfolio article p {   
-        font-size: 0.9rem;
         width: 90%;
     }
-    .culture h2 {       /*culture section*/
-        font-size: 2rem;
+                                            /* culture section */
+    .culture {
+        height: 43rem; 
     }
-    .culture p {
-        font-size: 1rem;
+    
+    .culture h2 {
+        margin-top: 1.5rem;
+        margin-bottom: 1rem;
     }
-    .culture_container h4 {
-        font-size: 1rem; 
+                                            /*clinets section*/
+    .clients {
+        height: 27rem; 
     }
-    .culture_container p {            
+    
+    .clients h2 {
+        margin-top: 1.5rem;
+        margin-bottom: 1rem;   
+     }
+    
+    .clients_text {
+        width: 95%;
+        height: 8rem;
+    }
+    
+    .clients_text blockquote {
         font-size: 0.9rem;
     }
-    .clients h2 {           /*clients section*/
-        font-size: 2rem;   
-     }
-    .clients p {
-        font-size: 1rem;
-    }
-    .clients_text blockquote {
-        font-size: 1rem;
-    }
+    
     .clients_text cite {
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
-    .logotype {                 /*logotype section*/
+                                            /*contact section*/
+    .contact h2 {
+        margin-bottom: 1rem;
+    }
+
+    .logotype {                          /*logotype section*/
         margin-top: 1rem;
         margin-bottom: 1rem;
         height: 15rem;
@@ -482,15 +523,30 @@
         flex-wrap: nowrap;
         justify-content: space-around;
     }
-     .contact_us ul {           /*latest section*/
+    
+     .contact_us ul {                      /*latest section*/
         display: flex;
         flex-direction: row;
         justify-content:space-between;
         flex-wrap: wrap;
-        width:90%;
+        width:100%;
     }
-    .latest_tweets ul > li {
-        padding-right: 2rem;    
+    
+    .latest_container > div {
+        margin-left: 0.3rem;
+    }
+                                        /*social media section*/
+    .social_media {
+        height: 6rem;
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+        display: flex;
+        flex-direction:column-reverse;
+        width: 90%;
+    }
+    
+    .social_logos {
+        width:70%;
     }
 }
 
