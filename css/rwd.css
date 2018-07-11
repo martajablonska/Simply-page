@@ -488,7 +488,7 @@
     }
                                             /*clinets section*/
     .clients {
-        height: 27rem; 
+        height: 23rem; 
     }
     
     .clients h2 {
@@ -498,10 +498,11 @@
     
     .clients_text {
         width: 95%;
-        height: 8rem;
+        height: 6rem;
     }
-    
+
     .clients_text blockquote {
+        margin: 0.5rem;
         font-size: 0.9rem;
     }
     
