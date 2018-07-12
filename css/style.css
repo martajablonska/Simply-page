@@ -164,21 +164,16 @@ p {
 .hamburger {
     display: none;
     background: none;
-    color: #777777;
     width:3rem;
     height: 3rem;
     margin:2rem;
-    float: right;
-    font-size: 2rem;
     border:none;
     position: absolute;
-    top:-1.7rem;
+    top:-1.5rem;
     right:0;
     z-index: 3;
-}
-
-.hamburger:before { 
-    content:'\2630'; 
+    font-size: 2rem;
+    color: #777777;
 }
 
 /*********************  baner style   *******************/
