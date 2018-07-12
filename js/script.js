@@ -9,6 +9,13 @@ let width= window.innerWidth;
         $("#hamburger").click(function(){
             $('#menu').slideToggle();
         });
+        
+        //hide menu after click 'home'//
+        
+         $('#home_menu').click(function() {  
+            $('#menu').slideUp();
+        });
+        
     };
     
     //smooth scroll 
@@ -21,7 +28,7 @@ let width= window.innerWidth;
     if(width < 600) {                      //600px breakpoint in css
        $('html, body').animate({
             scrollTop: $(href).offset().top -227
-        }, 800);        
+        }, 800); 
     } else {                        
         $('html, body').animate({
             scrollTop: $(href).offset().top - 68
