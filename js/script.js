@@ -1,36 +1,36 @@
-//hamburger menu
-
-let width= window.innerWidth;
-
 $(document).ready(function(){
+  
+let width= window.innerWidth;    
+    
+    //hamburger menu 
     
     if(width<600) {                         //600px breakpoint in css
-        $('#menu').hide();
+        $('#menu').hide();                  
         $("#hamburger").click(function(){
             $('#menu').slideToggle();
         });
     };
-});
-
-//scrolling to sections
-
-function scroll(e) {
+    
+    //smooth scroll 
+    
+    function scroll(e) {
 
     let href = $(this).attr('href');
     e.preventDefault();
 
-    if(width < 600) {
+    if(width < 600) {                      //600px breakpoint in css
        $('html, body').animate({
             scrollTop: $(href).offset().top -227
         }, 800);        
-    } else {
+    } else {                        
         $('html, body').animate({
             scrollTop: $(href).offset().top - 68
         }, 800);  
     };
 
     location.hash = href;
+    };
 
-};
-
-$('a[href*="#"]').click(scroll);
+    $('a[href*="#"]').click(scroll);
+    
+});
