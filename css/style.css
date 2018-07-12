@@ -833,7 +833,7 @@ p {
     transition: all 0.2s ease-in-out;
 }
 
-.fa {
+.fab {
     background-color: black;
     padding-top:0.7rem;
 	color: #fff;
@@ -843,16 +843,16 @@ p {
 	font-size: 1.5rem !important;
 }
 
-.fa-facebook:hover {
+.fa-facebook-f:hover {
 	background:#3b5998
 } 
-.fa-pinterest:hover {
+.fa-pinterest-p:hover {
 	background:#cb2027;
 }
 .fa-twitter:hover {
 	background:#00aced;
 }
-.fa-google-plus:hover {
+.fa-google-plus-g:hover {
 	background:#dd4b39
 }
 
