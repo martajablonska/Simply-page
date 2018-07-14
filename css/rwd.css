@@ -23,7 +23,7 @@
         position: absolute;      
         right: 0;
         width:auto;
-        height: 70%;
+        height: 20rem;
     }
 
     .portfolio {
@@ -78,9 +78,9 @@
         margin-left: 2.5rem; 
     }
     
-    .ipad { 
+    /*.ipad { 
         height: 60%;
-    }
+    }*/
     
                                             /*culture section*/
     .culture_container { 
@@ -211,7 +211,7 @@
     }
                                     /*culture section*/
     .culture {
-        height: 27rem; 
+        height: 29rem; 
     }
     
     .culture_container {
